@@ -663,7 +663,7 @@ class ::KLib.EntityClass {
     function SetMaxHealth(v){
         if (!IsValidW()) return
 
-        __ent.__KeyValueFromInt("max_health",v.tointeger())
+        SetKeyValue("max_health",v.tointeger())
     }
 
     function GetName(){
