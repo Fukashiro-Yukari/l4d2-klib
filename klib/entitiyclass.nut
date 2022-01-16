@@ -646,7 +646,7 @@ class ::KLib.EntityClass {
 
         local e = g_ModeScript.CreateSingleSimpleEntityFromTable(tbl)
 
-        if (!(__assert(e,"Non-existent entity ("+s+")"))) return
+        if (!(__assert(e,"Non-existent entity ("+name+")"))) return
 
         __ent = e
         __idx = GetBaseIndex()
