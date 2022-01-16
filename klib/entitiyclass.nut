@@ -28,9 +28,7 @@ class ::KLib.EntityClass {
     }
 
     function IsPlayerW(){
-        // return __assert(IsPlayer(),"Entity is not a player")
-
-        return IsPlayer()
+        return __assert(IsPlayer(),"Entity is not a player")
     }
 
     function GetBaseIndex(){
